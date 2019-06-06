@@ -84,10 +84,10 @@ django_response_model_to_jsonはジャンゴ(django)でモデル(Model)から取
 - [ジャンゴ(django)のモデル(Models)をJSONタイプでレスポンス(Response)する](https://dev-yakuza.github.io/django/response-model-to-json/)
 
 ### 使い方
-下記のコマンドでdjango_exerciseレポジトリ(Repository)をコピー(Clone)します。
+下記のコマンドでdjango_response_model_to_jsonレポジトリ(Repository)をコピー(Clone)します。
 
 ```bash
-git clone https://github.com/dev-yakuza/django_exercise.git
+git clone https://github.com/dev-yakuza/django_response_model_to_json.git
 ```
 
 下記のコマンドでパイソン仮想環境を作ります。
@@ -108,14 +108,14 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-データベースを連動するため、`django_exercise/settings.py`を開いて下記の内容を自分のDBに合わせて修正します。
+データベースを連動するため、`django_response_model_to_json/settings.py`を開いて下記の内容を自分のDBに合わせて修正します。
 
 ```python
 ...
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_exercise',  # DB name
+        'NAME': 'django_response_model_to_json',  # DB name
         'USER': 'root',  # DB account
         'PASSWORD': '',  # DB account's password
         'HOST': '127.0.0.1',  # DB address(IP)
@@ -160,10 +160,10 @@ django_response_model_to_json is the repository about how to make master data or
 - [Insert master data to django project](https://dev-yakuza.github.io/en/django/data-seed/)
 
 ### How to use
-execute the command below to clone the django_exercise repository.
+execute the command below to clone the django_response_model_to_json repository.
 
 ```bash
-git clone https://github.com/dev-yakuza/django_exercise.git
+git clone https://github.com/dev-yakuza/django_response_model_to_json.git
 ```
 
 execute the command below to start python virtual environment.
@@ -184,14 +184,14 @@ execute the command below to install modules for the project.
 pip install -r requirements.txt
 ```
 
-you need to modify `django_exercise/settings.py` to connect your database like below.
+you need to modify `django_response_model_to_json/settings.py` to connect your database like below.
 
 ```python
 ...
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_exercise',  # DB name
+        'NAME': 'django_response_model_to_json',  # DB name
         'USER': 'root',  # DB account
         'PASSWORD': '',  # DB account's password
         'HOST': '127.0.0.1',  # DB address(IP)
